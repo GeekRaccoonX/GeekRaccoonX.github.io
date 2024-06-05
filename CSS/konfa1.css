@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2535C1;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: table;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* При наведении мыши меняем фон ссылки на #111 (черный) */
+li a:hover {
+    background-color: #111;
+}
